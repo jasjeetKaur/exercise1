@@ -1,0 +1,31 @@
+body{
+  background-color: #E0DCDC;
+}
+
+header h1{
+  font-family: Broadway;
+  font-size: 45px;
+}
+
+nav{
+  float: right;
+}
+
+nav li{
+  display: inline;
+}
+
+.banner{
+  background-color: #e3e3e3;
+  padding: 30px;
+  margin-bottom: 60px;
+}
+
+.banner h2{
+  font-family: Harrington;
+  font-size: 24px;
+}
+
+.banner p{
+  font-family: Felix Titling;
+}
