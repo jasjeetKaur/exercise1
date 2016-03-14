@@ -1,31 +1,211 @@
 body{
-  background-color: #E0DCDC;
+  background-color: #eeffcc;
 }
 
 header h1{
   font-family: Broadway;
-  font-size: 45px;
+  font-size: 60px;
+  color: #003300;
 }
 
-nav{
-  float: right;
+header{
+  background: url(../images/footerBG.jpg);
 }
 
-nav li{
+.navi li{
   display: inline;
 }
 
+.navi a{
+  text-decoration: none;
+  color: #003300;
+  font-family: broadway;
+  font-size: 24px;
+  padding-top: 40px;
+}
+
 .banner{
-  background-color: #e3e3e3;
+  background-color: #003300;
   padding: 30px;
   margin-bottom: 60px;
 }
 
 .banner h2{
-  font-family: Harrington;
-  font-size: 24px;
+  font-family: monospace;
+  font-size: 26px;
+  font-weight: bold;
+  color: #eeffcc;
 }
 
 .banner p{
-  font-family: Felix Titling;
+  font-family: monospace;
+  font-size: 14px;
+  color: #eeffcc;
+}
+
+.trek{
+  opacity: 0.8;
+}
+
+.trek:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.a{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Broadway;
+  color: navy blue;
+}
+
+.styl{
+  font-size: 14px;
+  font-family: Broadway;
+}
+
+.heading{
+  font-family: Broadway;
+  font-size: 40px;
+  text-align: center;
+  color: #003300;
+}
+
+.trekks_container{
+  text-align: center;
+}
+
+.footer{
+  height: 500px;
+  background: url(../images/footerBG.jpg)
+}
+
+.footer .heading{
+  font-size: 50px;
+  font-family: Broadway;
+  color: #003300;
+}
+
+.footer .act{
+  font-size: 20px;
+  font-weight: bold;
+  color: #003300;
+  text-decoration: none;
+}
+
+.icon{
+  padding: 20px;
+}
+
+.address{
+  padding-left: 40px;
+}
+
+.type{
+  background-color: #003300;
+  width: 220px;
+  height: 220px;
+  text-align: center;
+  font-size: 16px;
+  color: #eeffcc;
+}
+
+.types{
+  padding: 40px;
+}
+
+.marque{
+  background: url(../images/marque7.jpg) no-repeat;
+  width: 1500px;
+  height: 750px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.why{
+  padding-bottom: 30px;
+}
+
+.txt{
+  text-align: justify;
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.headwhy{
+  font-family: Broadway;
+}
+
+.ser{
+  height: 399px;
+  padding-top: 30px;
+}
+
+.servicehead{
+  padding-top: 100px;
+  font-family: Broadway;
+  font-size: 32px;
+}
+
+.process1{
+  background: url(../images/process1.jpg);
+  height: 668px;
+  width: 430px;
+  opacity: 0.6;
+  filter: alpha(opacity=40);
+}
+.process2{
+  background: url(../images/process2.jpg);
+  height: 668px;
+  width: 430px;
+  opacity: 0.6;
+  filter: alpha(opacity=40);
+}
+.process3{
+  background: url(../images/process3.jpg);
+  height: 668px;
+  width: 430px;
+  opacity: 0.6;
+  filter: alpha(opacity=40);
+}
+.process4{
+  background: url(../images/process4.jpg);
+  height: 668px;
+  width: 430px;
+  opacity: 0.6;
+  filter: alpha(opacity=40);
+}
+
+.process{
+  margin: auto;
+  padding-top: 40px;
+}
+
+.process td{
+  padding: 40px 0px 40px 0px;
+}
+
+.process1:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.process2:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.process3:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.process4:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.top{
+  padding-left: 50px;
+  padding-top: 300px;
 }
